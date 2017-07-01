@@ -1,0 +1,207 @@
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.rankcon {
+  width: 980px;
+  height: 1500px;
+  margin:0 auto; 
+ 
+
+
+  }
+//   左边部分
+  .ranklef{
+      width: 240px;
+       min-height: 100px;
+      float: left;
+      background: #f8f8ff;
+      h4{
+          padding: 40px 10px 12px 15px;
+          font-size: 14px;
+          color: #000;
+      }
+      #tcheck{
+          background: #f2f2f2;
+      }
+      .feature{
+        img{
+            width: 40px;
+            height: 40px;
+            float: left;
+        }
+        .feature_word{
+            float: left;
+            margin-left: 10px;
+            p{
+                color: #000;
+            }
+            span{
+                color: #999;
+            }
+        }
+      }
+      
+  }
+//   右边部分
+  .rankrig{
+      float: left;
+      width: 740px;
+      padding: 40px;
+  }
+.rig_top{
+    .picbord{
+         width: 160px;
+        height: 160px;
+        border: 1px solid #ccc;
+        padding: 5px;
+        float: left;
+        img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .rig_top_rig{
+        float: left;
+        margin-left: 30px;
+        h2{
+            margin-top: 16px;
+            line-height: 24px;
+            font-size: 20px;
+        }
+        p{
+           color:#666;
+           font-size: 12px;
+           line-height: 35px;
+           margin-top: 5px;
+           margin-bottom: 15px;
+        }
+        
+    }
+    .bbtn{
+        background: url(../images/button2.png) no-repeat -6px -635px;
+        padding-left: 25px;
+    }
+   .loginbtn{
+        background-position: -6px -979px;
+   }
+   .reprintbtn{
+        background-position: -6px -1226px;
+   }
+   .loadbtn{
+        background-position: -6px -2806px;
+   }
+   .commentbtn{
+        background-position: -6px -1510px;
+   }
+    
+}
+// 列表部分
+.songli{
+    width: 660px;
+    height: 35px;
+    h2{
+        font-size: 20px;
+        line-height: 28px;
+        float: left
+    }
+    span{
+            float: left;
+            margin-top:10px;
+            margin-left: 8px;              
+    }
+}
+.list{
+     border-top: 2px solid #c20c0c;   
+     .nav{
+          height: 35px;
+          width: 100%;
+          border: 1px solid #ccc;
+         span{           
+            display: inline-block;
+            height: 35px;
+            line-height: 35px;
+            padding-left: 10px;
+            border-right: 1px solid #Ccc;
+            background: url(../images/table.png) no-repeat 0 0px;
+         }
+         .snull{
+             text-indent: -9999px;
+             width: 77px;
+            background-position: 0 0;
+         }
+         .stitle{
+             width: 398px;
+            background: url(../images/table.png) repeat-x 0 0px;
+         }
+         .stime{
+             width: 90px;
+         }
+         .ssinger{
+             width: 93px;       
+         }
+
+     }
+    .listcon{
+        i{
+            float: left;
+            font-style: normal;
+            line-height: 50px;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            float: left;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        em{
+            float: left;
+            width: 17px;
+            height: 17px;
+            cursor: pointer;
+            background: url(../images/table.png) no-repeat 0 -103px;
+            margin-right: 20px;
+            margin-top: 17px;
+        }
+        p{
+            float: left;
+             line-height: 50px;
+             width: 300px;
+             height: 50px;
+        }
+        #icon{
+            margin-top: 20px;
+            width: 110px;
+            height: 50px;
+            float: left;
+          
+            a{
+                display: inline-block;
+                width: 17px;
+                height: 13px;
+                background: url(../images/table.png) no-repeat  0 -700px;
+                margin: 0 5px;
+            }
+            .a1{
+                background: url(../images/icon.png) no-repeat  0 -700px;
+            }
+            .a2{
+                background-position: -20px -174px;;
+            }
+            .a3{
+                background-position: -20px -195px;
+            }
+            .a4{
+                background-position: -104px -174px;
+            }
+          } 
+          .singer_list{
+              overflow: hidden;
+              white-space: nowrap;
+              width: 56px;
+              height: 50px;
+              float: left;
+              margin-top: 20px;
+              margin-left: 20px;
+          } 
+        }
+    }
+

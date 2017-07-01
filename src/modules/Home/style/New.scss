@@ -1,0 +1,97 @@
+.icon1,.icon2,.prev,.next {
+    background: url('http://s2.music.126.net/style/web2/img/index/index.png?f87d38003a62a5375cb03c2a7b820c8a') no-repeat;
+}
+
+.title {
+    height: 33px;
+    padding: 0 10px 0 0;
+    border-bottom: 2px solid #C10D0C;
+
+    .icon1 {
+        display: block;
+        float: left;
+        width: 34px;
+        height: 100%;
+        background-position: -225px -156px;
+    }
+
+    .new {
+        float: left;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 28px;
+    }
+
+    .more-i {
+        color: #666;
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .more {
+        float: right;
+        margin-top: 9px;
+
+        .icon2 {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin-left: 4px;
+            vertical-align: middle;
+            background-position: 0 -240px;
+        }
+    }
+}
+
+.new-banner {
+    position: relative;
+    zoom: 1;
+    height: 186px;
+    margin: 20px 0 37px;
+    border: 1px solid #d3d3d3;
+    font-size: 12px;
+    background: #f5f5f5;
+
+    .inner {
+        box-sizing: border-box;
+        width: 645px;
+        margin: 0 auto;
+        margin-top: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .prev,.next {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        background-color: white; 
+    }
+
+    .prev {
+        background-position: -260px -75px;
+        left: -28px;
+        top: 45px;
+    }
+
+    .next {
+         background-position: -300px -75px;
+         right: -17px;
+         top: 45px;
+    }
+
+    .newTitle {
+        width: 100px;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+
+    .newSinger {
+        color: #666;
+    }
+
+    
+}

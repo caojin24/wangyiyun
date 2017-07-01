@@ -1,0 +1,30 @@
+.oper,.volume,.circulation {
+    background: url('http://s2.music.126.net/style/web2/img/frame/playbar.png?85b7716d71b33b73496dbc182eb9a255') no-repeat;
+}
+
+.oper {
+    position: relative;
+    z-index: 10;
+    width: 113px;
+    padding-left: 13px;
+    background-position: -147px -238px;
+    float: left;
+    margin-top: 8px;
+
+    .volume, .circulation {
+        text-indent: -9999px;
+        float: left;
+        width: 25px;
+        height: 25px;
+        margin: 11px 2px 0 0; 
+        cursor: pointer;
+    }
+
+    .volume {
+        background-position: -2px -248px;
+    }
+
+    .circulation {
+        background-position: -3px -344px;
+    }
+}

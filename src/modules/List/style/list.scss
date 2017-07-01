@@ -1,0 +1,37 @@
+// 歌曲列表
+#Listtt{
+  padding: 40px;
+    width: 1000px;
+    min-height: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+
+.title{
+    border: 0;
+}
+.top{
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c20c0c; 
+}
+.all{
+    font-size: 24px;
+    padding: 0 15px;
+    font-weight: normal;
+}
+.item-li{
+    float: left;
+    display: inline-block;
+    width: 183px;
+    height: 200px;
+    overflow: hidden;
+    padding: 0 0 30px 20px;
+    line-height: 1.4;
+}
+.pic{
+    width: 140px;
+    height: 140px;
+}
+}

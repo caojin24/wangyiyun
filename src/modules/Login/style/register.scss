@@ -1,0 +1,107 @@
+#regggg{
+    .reg{
+    width: 100%;
+    height: 600px;
+    position:relative;
+}
+.ant-carousel{
+    width: 596px;
+    height: 386px;
+    position: absolute;
+    top:100px;
+    left: 100px;
+}
+.car1{
+    width: 596px;
+    height: 386px;
+    background: url('../images/SM-Fletcher.jpg');
+}
+.car2{
+    width: 596px;
+    height: 386px;
+    background: url('../images/SM-JackGarratt.jpg');
+}
+.car3{
+    width: 596px;
+    height: 386px;
+    background: url('../images/SM-Hozier.jpg');
+}
+
+.register-form{
+    position: absolute;
+    top: 150px;
+    right: 10px;
+    width:700px;
+   .ant-form-item-control{
+       width: 410px;
+       position: relative;
+   }
+   #strong{
+       position: absolute;
+       right: -100px;
+       top:0px;
+   }
+}
+
+#clause{
+    color:red;
+    display: none;
+}
+
+.footer{
+    width: 100%;
+    height: 140px;
+    background: #f2f2f2;
+    border-top:1px solid #d3d3d3;
+}
+.ft{
+    width: 980px;
+    height: 140px;
+    margin:0 auto;
+    .copy{
+        float: left;
+        width: 490px;
+        padding-top: 35px;
+        line-height: 24px;
+        .s-fc4{
+            color:#999;
+        }
+        .line{
+            margin: 0 8px 0 10px;
+            color: #c2c2c2;
+        }
+        .sep{
+            font-size: 14px;
+        }
+        .s-fc3{
+            color: #666;
+        }
+    }
+    .enter{
+        width: 330px;
+        margin-top: 21px;
+        float: right;
+        .logo{
+            float: left;
+            width: 60px;
+            height: 70px;
+            background: url("../images/foot_enter.png") no-repeat 0 9999px;
+            margin-left: 30px;
+            text-indent: -99999px
+        }
+        .logo-musician{
+            background-position: -60px -80px;
+            margin-left: 0;
+        }
+        .logo-topic{
+            background-position: 0 -80px;
+        }
+        .logo-midea{
+            background-position: 0 0;
+        }
+        .logo-reward{
+            background-position: -60px 0;
+        }
+    }
+}
+}

@@ -1,0 +1,33 @@
+.controls {
+  width: 137px;
+  margin-top: 12px;
+  float: left; }
+  .controls .pre, .controls .play, .controls .pause, .controls .next {
+    background: url("http://s2.music.126.net/style/web2/img/frame/playbar.png?85b7716d71b33b73496dbc182eb9a255") no-repeat;
+    cursor: pointer;
+    text-indent: -9999px;
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+    margin-top: 5px; }
+  .controls .pre {
+    background-position: 0 -130px; }
+  .controls .play {
+    width: 36px;
+    height: 36px;
+    margin-top: 0;
+    background-position: 0 -204px;
+    margin-right: 8px; }
+    .controls .play:hover {
+      background-position: -40px -204px; }
+  .controls .pause {
+    width: 36px;
+    height: 36px;
+    margin-top: 0;
+    background-position: 0 -165px;
+    margin-right: 8px; }
+    .controls .pause:hover {
+      background-position: -40px -165px; }
+  .controls .next {
+    background-position: -80px -130px; }

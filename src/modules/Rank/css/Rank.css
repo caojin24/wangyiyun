@@ -1,0 +1,166 @@
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0; }
+
+.rankcon {
+  width: 980px;
+  height: 1500px;
+  margin: 0 auto; }
+
+.ranklef {
+  width: 240px;
+  min-height: 100px;
+  float: left;
+  background: #f8f8ff; }
+  .ranklef h4 {
+    padding: 40px 10px 12px 15px;
+    font-size: 14px;
+    color: #000; }
+  .ranklef #tcheck {
+    background: #f2f2f2; }
+  .ranklef .feature img {
+    width: 40px;
+    height: 40px;
+    float: left; }
+  .ranklef .feature .feature_word {
+    float: left;
+    margin-left: 10px; }
+    .ranklef .feature .feature_word p {
+      color: #000; }
+    .ranklef .feature .feature_word span {
+      color: #999; }
+
+.rankrig {
+  float: left;
+  width: 740px;
+  padding: 40px; }
+
+.rig_top .picbord {
+  width: 160px;
+  height: 160px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  float: left; }
+  .rig_top .picbord img {
+    width: 150px;
+    height: 150px; }
+
+.rig_top .rig_top_rig {
+  float: left;
+  margin-left: 30px; }
+  .rig_top .rig_top_rig h2 {
+    margin-top: 16px;
+    line-height: 24px;
+    font-size: 20px; }
+  .rig_top .rig_top_rig p {
+    color: #666;
+    font-size: 12px;
+    line-height: 35px;
+    margin-top: 5px;
+    margin-bottom: 15px; }
+
+.rig_top .bbtn {
+  background: url(../images/button2.png) no-repeat -6px -635px;
+  padding-left: 25px; }
+
+.rig_top .loginbtn {
+  background-position: -6px -979px; }
+
+.rig_top .reprintbtn {
+  background-position: -6px -1226px; }
+
+.rig_top .loadbtn {
+  background-position: -6px -2806px; }
+
+.rig_top .commentbtn {
+  background-position: -6px -1510px; }
+
+.songli {
+  width: 660px;
+  height: 35px; }
+  .songli h2 {
+    font-size: 20px;
+    line-height: 28px;
+    float: left; }
+  .songli span {
+    float: left;
+    margin-top: 10px;
+    margin-left: 8px; }
+
+.list {
+  border-top: 2px solid #c20c0c; }
+  .list .nav {
+    height: 35px;
+    width: 100%;
+    border: 1px solid #ccc; }
+    .list .nav span {
+      display: inline-block;
+      height: 35px;
+      line-height: 35px;
+      padding-left: 10px;
+      border-right: 1px solid #Ccc;
+      background: url(../images/table.png) no-repeat 0 0px; }
+    .list .nav .snull {
+      text-indent: -9999px;
+      width: 77px;
+      background-position: 0 0; }
+    .list .nav .stitle {
+      width: 398px;
+      background: url(../images/table.png) repeat-x 0 0px; }
+    .list .nav .stime {
+      width: 90px; }
+    .list .nav .ssinger {
+      width: 93px; }
+  .list .listcon i {
+    float: left;
+    font-style: normal;
+    line-height: 50px; }
+  .list .listcon img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .list .listcon em {
+    float: left;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    background: url(../images/table.png) no-repeat 0 -103px;
+    margin-right: 20px;
+    margin-top: 17px; }
+  .list .listcon p {
+    float: left;
+    line-height: 50px;
+    width: 300px;
+    height: 50px; }
+  .list .listcon #icon {
+    margin-top: 20px;
+    width: 110px;
+    height: 50px;
+    float: left; }
+    .list .listcon #icon a {
+      display: inline-block;
+      width: 17px;
+      height: 13px;
+      background: url(../images/table.png) no-repeat 0 -700px;
+      margin: 0 5px; }
+    .list .listcon #icon .a1 {
+      background: url(../images/icon.png) no-repeat 0 -700px; }
+    .list .listcon #icon .a2 {
+      background-position: -20px -174px; }
+    .list .listcon #icon .a3 {
+      background-position: -20px -195px; }
+    .list .listcon #icon .a4 {
+      background-position: -104px -174px; }
+  .list .listcon .singer_list {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 56px;
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px; }

@@ -1,0 +1,83 @@
+#listSong {
+  padding: 40px;
+  width: 1000px;
+  min-height: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  border-width: 0 1px; }
+  #listSong .all {
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c20c0c; }
+  #listSong .fl {
+    float: left; }
+    #listSong .fl .title {
+      border: 0;
+      font-size: 16px; }
+    #listSong .fl .sn {
+      font-size: 26px;
+      margin-bottom: 10px; }
+  #listSong .fr {
+    float: right; }
+  #listSong .info {
+    padding: 20px;
+    min-height: 400px; }
+    #listSong .info .details {
+      margin-left: 40px; }
+      #listSong .info .details .title {
+        padding: 10px; }
+      #listSong .info .details Button {
+        margin: 20px 10px; }
+    #listSong .info .image {
+      margin-left: 50px;
+      width: 310px;
+      height: 310px;
+      padding: 4px 4px;
+      border: 1px solid #b4b4b4; }
+      #listSong .info .image .bigpic {
+        width: 300px;
+        height: 300px; }
+  #listSong .footer {
+    width: 100%;
+    height: 140px;
+    background: #f2f2f2;
+    border-top: 1px solid #d3d3d3; }
+  #listSong .ft {
+    width: 980px;
+    height: 140px;
+    margin: 0 auto; }
+    #listSong .ft .copy {
+      float: left;
+      width: 490px;
+      padding-top: 35px;
+      line-height: 24px; }
+      #listSong .ft .copy .s-fc4 {
+        color: #999; }
+      #listSong .ft .copy .line {
+        margin: 0 8px 0 10px;
+        color: #c2c2c2; }
+      #listSong .ft .copy .sep {
+        font-size: 14px; }
+      #listSong .ft .copy .s-fc3 {
+        color: #666; }
+    #listSong .ft .enter {
+      width: 330px;
+      margin-top: 21px;
+      float: right; }
+      #listSong .ft .enter .logo {
+        float: left;
+        width: 60px;
+        height: 70px;
+        background: url("../images/foot_enter.png") no-repeat 0 9999px;
+        margin-left: 30px;
+        text-indent: -99999px; }
+      #listSong .ft .enter .logo-musician {
+        background-position: -60px -80px;
+        margin-left: 0; }
+      #listSong .ft .enter .logo-topic {
+        background-position: 0 -80px; }
+      #listSong .ft .enter .logo-midea {
+        background-position: 0 0; }
+      #listSong .ft .enter .logo-reward {
+        background-position: -60px 0; }

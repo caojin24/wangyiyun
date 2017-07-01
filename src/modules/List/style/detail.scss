@@ -1,0 +1,238 @@
+// 详情页
+// info
+#listDetail{
+    padding: 40px;
+    width: 1000px;
+    min-height: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+    position: relative;
+
+h3{
+    padding: 10px 15px;
+    font-size: 18px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.info{
+    overflow: hidden;
+  
+    
+}
+.img-wrap{
+  width: 210px;
+    height: 210px;
+    padding: 4px 4px;
+    border: 1px solid #b4b4b4;
+}
+.img{
+ width: 200px;
+    height: 200px;
+}
+.tip{
+    margin-left: 30px;
+    padding: 20px;
+}
+.btn{
+    margin-top: 20px;
+    button{
+        margin-left: 10px;
+    }
+}
+
+// 歌曲列表
+.songs{
+    margin-top:20px;
+    
+}
+.icon{
+    color:#108ee9;
+    cursor: pointer;
+}
+.m-table {
+    width: 100%;
+    border: 1px solid #d9d9d9;
+}
+.m-table th {
+    height: 38px;
+    background-color: #f7f7f7;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+}
+.m-table th .wp {
+    height: 18px;
+    line-height: 18px;
+   
+}
+
+.m-table .w1 {
+    width: 10px;
+    text-align: center;
+}
+.m-table .w2 {
+    width: 30%;
+    text-indent: 10px;
+}
+.m-table .w3 {
+    width:20%;
+    text-indent: 10px;
+}
+.m-table .w4 {
+    width:20%;
+    text-indent: 10px;
+}
+.m-table .w5 {
+    width:10%;
+    text-align: center;
+}
+.m-table .w6 {
+    width:10%;
+}
+
+.m-table td{
+    
+    padding: 6px 10px;
+    line-height: 20px;
+    text-align: left;
+}
+
+
+
+.m-table .t1 {
+    text-align:center;
+    width: 10%;
+    .num{
+        visibility: hidden;
+    }
+}
+.m-table .t2 {
+    width: 30%;
+}
+.m-table .t3 {
+    width:20%;
+}
+.m-table .t4 {
+    width:20%;
+}
+.m-table .t5 {
+    text-align:center;
+    width:10%;
+}
+.m-table .t6 {
+    text-align:center;
+    width:10%;
+}
+
+
+.ply{
+  font-size:20px;
+}
+.download{
+    font-size:20px;
+}
+.collect{
+     font-size:20px;
+}
+
+.t-body tr:nth-child(2n+1){
+     background-color: #f7f7f7;
+}
+
+//单行文本溢出
+ .t-body .t4{
+   overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
+}
+
+//评论
+.comments{
+    margin-top:20px;
+    .tooltip{
+        display: none;
+        color: #dd2600;
+        font-size: 18px;
+    }
+    #message{
+        color: #108ee9;
+        font-size: 18px;
+    }
+}
+.comms{
+    padding:10px;
+    margin-top:20px;
+    border-top: 1px dotted #ccc;
+    .text{
+        padding: 15px 10px;
+    }
+}
+.submit{
+    margin-top: 20px;
+    margin-left:90%;
+}
+//登录警示
+#ball{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 99;
+    display: none;
+}
+.warning{
+    
+    position: fixed;
+    top: 130px;
+    left: 460px;
+    z-index: 9998;
+    width: 400px;
+    border-radius: 4px;
+    box-shadow: 0 5px 16px rgba(0,0,0,0.8);
+    border: none;
+    .login{
+       
+        z-index: 10;
+        color: #ffffff;
+        border-bottom: 1px solid #191919;
+        border-radius: 4px 4px 0 0;
+        background: #2d2d2d;
+        height: 35px;
+        line-height: 35px;
+    .close{
+         cursor: pointer;
+    }
+
+    }
+    .login-tap{
+            z-index:1000;
+          background:#ffffff;
+
+        .tap{
+            font-size: 16px;
+            width: 300px;  
+            background: #0080ff;
+            color: whitesmoke;
+            margin: 28px 0;
+            border-radius: 4px; 
+            border: 1px solid #9b9b9b;
+            height: 31px;
+            line-height: 31px;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+
+}
+#mes{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+}

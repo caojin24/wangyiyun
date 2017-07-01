@@ -1,0 +1,212 @@
+#doooo .top {
+  width: 100%;
+  height: 483px;
+  background: url("../images/bg.jpg") no-repeat center 0;
+  overflow: hidden; }
+
+#doooo .carouselCon {
+  width: 545px;
+  height: 440px;
+  margin-left: 200px;
+  float: left;
+  margin: 17px 0 0 192px; }
+  #doooo .carouselCon .carouselimg {
+    width: auto;
+    height: auto; }
+
+#doooo .loadList {
+  width: 380px;
+  height: 222px;
+  float: left;
+  margin: 194px -8px 0 0;
+  margin-left: 100px; }
+  #doooo .loadList a {
+    width: 170px;
+    height: 40px;
+    display: block;
+    float: left;
+    margin-bottom: 14px;
+    margin-left: 20px;
+    background-position: 0 0;
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    background: url(../images/down_btn.png) repeat-x; }
+    #doooo .loadList a i {
+      float: left;
+      background: url(../images/down_btn.png) repeat-x;
+      background-position: -60px -100px;
+      width: 22px;
+      height: 40px;
+      margin: 0 12px; }
+    #doooo .loadList a .loadiphone {
+      background-position: -30px -100px; }
+    #doooo .loadList a .loadpc {
+      background-position: 0 -100px; }
+    #doooo .loadList a .loadlinux {
+      background-position: -128px -100px; }
+    #doooo .loadList a em {
+      float: left;
+      font-style: normal;
+      line-height: 40px;
+      height: 40px; }
+  #doooo .loadList .circle {
+    background: url(../images/sprite.png) no-repeat 0 9999px;
+    float: left;
+    width: 5px;
+    height: 6px;
+    margin: 0 5px 2px 0;
+    background-position: -94px -87px;
+    margin-left: 20px;
+    margin-top: 5px; }
+  #doooo .loadList span {
+    color: #e6e8ec;
+    font-size: 12px;
+    float: left;
+    margin-left: 2px; }
+
+#doooo .two_w {
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #e3e3e3; }
+
+#doooo .two {
+  width: 982px;
+  height: 437px;
+  margin: 0 auto; }
+  #doooo .two .two_word {
+    width: 400px;
+    float: left;
+    margin-top: 130px;
+    margin-left: 65px; }
+    #doooo .two .two_word h3 {
+      font-size: 40px;
+      font-weight: normal;
+      padding: 45px 0 5px 0; }
+    #doooo .two .two_word p {
+      font-size: 16px;
+      color: #666;
+      line-height: 24px; }
+  #doooo .two img {
+    width: 400px;
+    height: 190px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 130px; }
+  #doooo .two .litwo {
+    width: 447px;
+    height: 269px; }
+  #doooo .two .lithree {
+    width: 463px;
+    height: 289px; }
+  #doooo .two .lifour {
+    width: 434px;
+    height: 246px; }
+  #doooo .two .lifive {
+    width: 359px;
+    height: 355px;
+    margin-top: 50px; }
+
+#doooo .bggrey {
+  background: #f8f8f8; }
+
+#doooo .btn_load_w {
+  width: 100%;
+  height: 343px;
+  background: #f8f8f8;
+  border-bottom: 1px solid #e3e3e3; }
+  #doooo .btn_load_w .btn_load {
+    width: 982px;
+    overflow: hidden;
+    margin: 0 auto; }
+    #doooo .btn_load_w .btn_load h3 {
+      padding-top: 45px;
+      padding-bottom: 5px;
+      text-align: center; }
+    #doooo .btn_load_w .btn_load p {
+      text-align: center;
+      margin-bottom: 42px; }
+    #doooo .btn_load_w .btn_load a {
+      display: block;
+      width: 124px;
+      height: 32px;
+      padding: 8px 0 0 35px;
+      color: #Fff;
+      background: url(../images/sprite.png) no-repeat 0 -464px; }
+    #doooo .btn_load_w .btn_load div {
+      margin: 0 35px;
+      overflow: hidden;
+      float: left; }
+    #doooo .btn_load_w .btn_load img {
+      margin-bottom: 10px; }
+  #doooo .btn_load_w .btn_load_one img {
+    width: 111px;
+    height: 104px; }
+  #doooo .btn_load_w .btn_load_two img {
+    width: 93px;
+    height: 104px; }
+  #doooo .btn_load_w .btn_load_two a {
+    background-position: 0 -526px; }
+  #doooo .btn_load_w .btn_load_three img {
+    width: 124px;
+    height: 104px; }
+  #doooo .btn_load_w .btn_load_three a {
+    background-position: 0 -526px; }
+  #doooo .btn_load_w .btn_load_four img {
+    width: 88px;
+    height: 105px; }
+  #doooo .btn_load_w .btn_load_four a {
+    background-position: 0 -588px; }
+  #doooo .btn_load_w .btn_load_five img {
+    width: 136px;
+    height: 100px; }
+  #doooo .btn_load_w .btn_load_five a {
+    background-position: 0 -402px; }
+
+#doooo .bottom_w {
+  width: 100%;
+  height: 140px;
+  background: #f2f2f2; }
+  #doooo .bottom_w .bottom {
+    width: 980px;
+    margin: 0 auto; }
+  #doooo .bottom_w .bottom_left {
+    width: 490px;
+    float: left;
+    padding-top: 35px; }
+    #doooo .bottom_w .bottom_left a {
+      color: #999;
+      padding: 0 10px; }
+    #doooo .bottom_w .bottom_left span {
+      color: #999; }
+    #doooo .bottom_w .bottom_left .word {
+      margin-top: 5px;
+      color: #666;
+      padding-left: 10px; }
+  #doooo .bottom_w ul {
+    padding-top: 21px;
+    width: 330px;
+    float: right; }
+    #doooo .bottom_w ul li {
+      float: left;
+      margin-left: 20px; }
+      #doooo .bottom_w ul li a {
+        float: left;
+        width: 60px;
+        height: 70px;
+        background: url(../images/foot_enter.png) no-repeat -60px -80px; }
+    #doooo .bottom_w ul .foot_enter2 a {
+      background-position: 0 -80px; }
+    #doooo .bottom_w ul .foot_enter3 a {
+      background-position: 0 0px; }
+    #doooo .bottom_w ul .foot_enter4 a {
+      background-position: -60px 0px; }
+
+#doooo .code {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 100;
+  width: 105px;
+  height: 105px; }

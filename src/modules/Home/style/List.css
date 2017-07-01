@@ -1,0 +1,119 @@
+#lisss .icon1, #lisss .icon2, #lisss .play, #lisss .collect {
+  background: url("http://s2.music.126.net/style/web2/img/index/index.png?f87d38003a62a5375cb03c2a7b820c8a") no-repeat; }
+
+#lisss .title {
+  height: 33px;
+  margin: 0 10px 0 0;
+  border-bottom: 2px solid #C10D0C; }
+  #lisss .title .icon1 {
+    display: block;
+    float: left;
+    width: 34px;
+    height: 100%;
+    background-position: -225px -156px; }
+  #lisss .title .listt {
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px; }
+  #lisss .title .more-i {
+    color: #666;
+    cursor: pointer; }
+    #lisss .title .more-i:hover {
+      text-decoration: underline; }
+  #lisss .title .more {
+    float: right;
+    margin-top: 9px; }
+    #lisss .title .more .icon2 {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      margin-left: 4px;
+      vertical-align: middle;
+      background-position: 0 -240px; }
+
+#lisss .List-con {
+  height: 472px;
+  margin-top: 20px;
+  margin-left: 1px;
+  background: url("http://s2.music.126.net/style/web2/img/index/index_bill.png?e6a2c229a3ad50ac325302c354662351") no-repeat; }
+  #lisss .List-con dl {
+    float: left;
+    width: 230px; }
+    #lisss .List-con dl .top {
+      height: 100px;
+      margin: 20px 0 0 19px; }
+    #lisss .List-con dl .list-cover {
+      width: 80px;
+      height: 80px;
+      float: left; }
+      #lisss .List-con dl .list-cover img {
+        width: 100%;
+        height: 100%; }
+    #lisss .List-con dl .list-title {
+      float: left;
+      width: 116px;
+      margin: 6px 0 0 10px; }
+  #lisss .List-con ol {
+    height: 319px;
+    margin-left: 50px;
+    line-height: 32px; }
+    #lisss .List-con ol li {
+      height: 32px; }
+  #lisss .List-con .hot {
+    width: 226px; }
+  #lisss .List-con .songIndex {
+    float: left;
+    position: relative;
+    width: 35px;
+    height: 32px;
+    margin-left: -35px;
+    text-align: center;
+    color: #666;
+    font-size: 16px; }
+  #lisss .List-con li:nth-child(-n+3) .songIndex {
+    color: #c10d0c; }
+  #lisss .List-con .songIcon {
+    float: left;
+    width: 170px;
+    height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal; }
+  #lisss .List-con .opera {
+    display: none;
+    float: right;
+    width: 82px;
+    padding-left: 0px;
+    margin-top: 7px; }
+    #lisss .List-con .opera a {
+      float: left;
+      width: 17px;
+      height: 17px;
+      margin-right: 10px; }
+    #lisss .List-con .opera .play {
+      background-position: -267px -268px; }
+    #lisss .List-con .opera .tolist {
+      background: url("http://s2.music.126.net/style/web2/img/icon.png?84aaea3c1529ccbd0246a1436c2dc155") no-repeat;
+      background-position: 0 -700px;
+      margin: 2px 6px 0 0; }
+    #lisss .List-con .opera .collect {
+      background-position: -297px -268px; }
+  #lisss .List-con li:hover .opera {
+    display: block; }
+  #lisss .List-con li:hover .songIcon {
+    width: 80px; }
+  #lisss .List-con .more {
+    clear: both;
+    height: 32px;
+    margin-right: 32px;
+    text-align: right;
+    line-height: 32px; }
+    #lisss .List-con .more a {
+      color: #000; }
+      #lisss .List-con .more a:hover {
+        text-decoration: underline; }
+
+#lisss .top {
+  background: none; }

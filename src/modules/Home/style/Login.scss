@@ -1,0 +1,28 @@
+.Login,.user {
+    background: url('http://s2.music.126.net/style/web2/img/index/index.png?f87d38003a62a5375cb03c2a7b820c8a') no-repeat;
+}
+
+.Login {
+    height: 126px;
+    
+    p {
+        width: 205px;
+        margin: 0 auto;
+        padding: 16px 0;
+        line-height: 22px;
+        color: #666;
+        font-size: 12px;
+    }
+
+    .user {
+        display: block;
+        width: 100px;
+        height: 31px;
+        line-height: 31px;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0 1px 0 #8a060b;
+        margin: 0 auto;
+        background-position: 0 -195px;
+    }
+}

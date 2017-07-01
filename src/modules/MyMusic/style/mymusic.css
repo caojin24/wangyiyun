@@ -1,0 +1,109 @@
+#myyyyyy .bg {
+  width: 100%;
+  min-height: 700px;
+  background: #f2f2f2; }
+  #myyyyyy .bg .content {
+    background: #fff;
+    width: 980px;
+    height: 700px;
+    border: 1px solid #d3d3d3;
+    margin: 0 auto;
+    border-bottom: 0; }
+
+#myyyyyy .n-pglg {
+  width: 807px;
+  height: 372px;
+  margin: 0 auto 0;
+  background: url("../images/mymusic.png") no-repeat;
+  background-position: 0 104px;
+  position: relative; }
+  #myyyyyy .n-pglg .btn {
+    position: absolute;
+    top: 306px;
+    left: 482px;
+    display: block;
+    width: 167px;
+    height: 45px;
+    text-indent: -9999px; }
+
+#myyyyyy .my {
+  background: #fff;
+  width: 980px;
+  min-height: 700px;
+  border: 1px solid #d3d3d3;
+  margin: 0 auto;
+  border-bottom: 0;
+  display: none; }
+  #myyyyyy .my .card {
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px; }
+  #myyyyyy .my span {
+    display: block;
+    height: 42px;
+    width: 150px; }
+  #myyyyyy .my h3 {
+    font-size: 14px;
+    margin-top: 10px;
+    text-indent: 10px;
+    white-space: nowrap;
+    overflow: hidden; }
+  #myyyyyy .my .aut {
+    text-indent: 10px;
+    width: 100px;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden; }
+  #myyyyyy .my .play {
+    float: right;
+    margin-right: 10px; }
+
+#myyyyyy .listImg {
+  display: block;
+  width: 150px;
+  height: 150px; }
+
+#myyyyyy .footer {
+  width: 100%;
+  height: 140px;
+  background: #f2f2f2;
+  border-top: 1px solid #d3d3d3; }
+
+#myyyyyy .ft {
+  width: 980px;
+  height: 140px;
+  margin: 0 auto; }
+  #myyyyyy .ft .copy {
+    float: left;
+    width: 490px;
+    padding-top: 35px;
+    line-height: 24px; }
+    #myyyyyy .ft .copy .s-fc4 {
+      color: #999; }
+    #myyyyyy .ft .copy .line {
+      margin: 0 8px 0 10px;
+      color: #c2c2c2; }
+    #myyyyyy .ft .copy .sep {
+      font-size: 14px; }
+    #myyyyyy .ft .copy .s-fc3 {
+      color: #666; }
+  #myyyyyy .ft .enter {
+    width: 330px;
+    margin-top: 21px;
+    float: right; }
+    #myyyyyy .ft .enter .logo {
+      float: left;
+      width: 60px;
+      height: 70px;
+      background: url("../images/foot_enter.png") no-repeat 0 9999px;
+      margin-left: 30px;
+      text-indent: -99999px; }
+    #myyyyyy .ft .enter .logo-musician {
+      background-position: -60px -80px;
+      margin-left: 0; }
+    #myyyyyy .ft .enter .logo-topic {
+      background-position: 0 -80px; }
+    #myyyyyy .ft .enter .logo-midea {
+      background-position: 0 0; }
+    #myyyyyy .ft .enter .logo-reward {
+      background-position: -60px 0; }

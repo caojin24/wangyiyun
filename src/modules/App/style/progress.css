@@ -1,0 +1,49 @@
+.progre {
+  position: relative;
+  width: 608px;
+  float: left; }
+  .progre .songInfo {
+    height: 28px;
+    color: #e8e8e8;
+    text-shadow: 0 1px 0 #171717;
+    line-height: 28px;
+    margin-top: 4px;
+    font-size: 12px; }
+    .progre .songInfo .songName {
+      float: left; }
+    .progre .songInfo .singerName {
+      float: left;
+      margin-left: 15px;
+      color: #9b9b9b; }
+  .progre .prog {
+    width: 493px;
+    position: relative; }
+    .progre .prog .barbg {
+      width: 493px;
+      height: 9px;
+      background: url("http://s2.music.126.net/style/web2/img/frame/statbar.png?b27d11bfd23aab43050266455c36d418") no-repeat;
+      background-position: right 0; }
+      .progre .prog .barbg .cur {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1%;
+        height: 9px;
+        background: url("http://s2.music.126.net/style/web2/img/frame/statbar.png?b27d11bfd23aab43050266455c36d418") no-repeat;
+        background-position: left -66px; }
+      .progre .prog .barbg .btn {
+        display: block;
+        position: absolute;
+        top: -9px;
+        right: -20px;
+        width: 18px;
+        height: 24px;
+        margin-left: -11px;
+        background: url("http://s2.music.126.net/style/web2/img/iconall.png?a7b437b9651ba02f648652987f1e1efe") no-repeat;
+        background-position: 0 -250px; }
+    .progre .prog .time {
+      position: absolute;
+      top: -7px;
+      right: -95px;
+      color: #797979;
+      text-shadow: 0 1px 0 #121212; }

@@ -1,0 +1,75 @@
+#reccc{
+    .icon1,.icon2 {
+    background: url('http://s2.music.126.net/style/web2/img/index/index.png?f87d38003a62a5375cb03c2a7b820c8a') no-repeat;
+}
+
+.title {
+    height: 33px;
+    padding: 0 10px 0 0;
+    border-bottom: 2px solid #C10D0C;
+
+    .icon1 {
+        display: block;
+        float: left;
+        width: 34px;
+        height: 100%;
+        background-position: -225px -156px;
+    }
+
+    .hot {
+        float: left;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 28px;
+    }
+
+    .Tab {
+        float: left;
+        margin: 7px 0 0 20px;
+
+        .line {
+            margin: 0 10px;
+            color: #ccc;
+        }
+    }
+
+    .tab-i,.more-i {
+        color: #666;
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .more {
+        float: right;
+        margin-top: 9px;
+
+        .icon2 {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin-left: 4px;
+            vertical-align: middle;
+            background-position: 0 -240px;
+        }
+    }
+}
+
+.re-list {
+    margin: 20px 0 0 -42px;
+
+    li {
+        width: 140px;
+        height: 204px;
+        margin-left: 42px;
+        padding-bottom: 30px;
+        float: left;
+        overflow: hidden;
+
+        p {
+            margin: 8px 0px 3px;
+        }
+    }
+}
+}

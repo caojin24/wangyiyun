@@ -1,0 +1,88 @@
+#regggg .reg {
+  width: 100%;
+  height: 600px;
+  position: relative; }
+
+#regggg .ant-carousel {
+  width: 596px;
+  height: 386px;
+  position: absolute;
+  top: 100px;
+  left: 100px; }
+
+#regggg .car1 {
+  width: 596px;
+  height: 386px;
+  background: url("../images/SM-Fletcher.jpg"); }
+
+#regggg .car2 {
+  width: 596px;
+  height: 386px;
+  background: url("../images/SM-JackGarratt.jpg"); }
+
+#regggg .car3 {
+  width: 596px;
+  height: 386px;
+  background: url("../images/SM-Hozier.jpg"); }
+
+#regggg .register-form {
+  position: absolute;
+  top: 150px;
+  right: 10px;
+  width: 700px; }
+  #regggg .register-form .ant-form-item-control {
+    width: 410px;
+    position: relative; }
+  #regggg .register-form #strong {
+    position: absolute;
+    right: -100px;
+    top: 0px; }
+
+#regggg #clause {
+  color: red;
+  display: none; }
+
+#regggg .footer {
+  width: 100%;
+  height: 140px;
+  background: #f2f2f2;
+  border-top: 1px solid #d3d3d3; }
+
+#regggg .ft {
+  width: 980px;
+  height: 140px;
+  margin: 0 auto; }
+  #regggg .ft .copy {
+    float: left;
+    width: 490px;
+    padding-top: 35px;
+    line-height: 24px; }
+    #regggg .ft .copy .s-fc4 {
+      color: #999; }
+    #regggg .ft .copy .line {
+      margin: 0 8px 0 10px;
+      color: #c2c2c2; }
+    #regggg .ft .copy .sep {
+      font-size: 14px; }
+    #regggg .ft .copy .s-fc3 {
+      color: #666; }
+  #regggg .ft .enter {
+    width: 330px;
+    margin-top: 21px;
+    float: right; }
+    #regggg .ft .enter .logo {
+      float: left;
+      width: 60px;
+      height: 70px;
+      background: url("../images/foot_enter.png") no-repeat 0 9999px;
+      margin-left: 30px;
+      text-indent: -99999px; }
+    #regggg .ft .enter .logo-musician {
+      background-position: -60px -80px;
+      margin-left: 0; }
+    #regggg .ft .enter .logo-topic {
+      background-position: 0 -80px; }
+    #regggg .ft .enter .logo-midea {
+      background-position: 0 0; }
+    #regggg .ft .enter .logo-reward {
+      background-position: -60px 0; }

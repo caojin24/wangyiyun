@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* ********************重置样式 reset******************** */
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form, figure, figcaption {
+  margin: 0px; }
+
+ul, ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font: 14px/1.5 "微软雅黑", "宋体", arial;
+  width: 100%;
+  color: #333;
+  overflow-x: hidden; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+/* 清除点击出现虚拟框 */
+a {
+  outline: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent; }
+  a:focus {
+    outline: 0; }
+  a:link, a:visited {
+    color: #333;
+    text-decoration: none; }
+
+a img {
+  border: none; }
+
+input, textarea, select {
+  outline: none;
+  font: 12px/1.5 "微软雅黑", "宋体", arial; }
+
+/* 清除浮动 */
+.clearfix {
+  *zoom: 1; }
+  .clearfix:after {
+    display: block;
+    content: "\200B";
+    clear: both;
+    height: 0; }

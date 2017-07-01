@@ -1,0 +1,65 @@
+#loginnn .hp {
+  width: 100%;
+  min-height: 600px;
+  margin: 0 auto;
+  background: url("../images/bg.png") no-repeat;
+  position: relative; }
+
+#loginnn .login-form {
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  width: 300px; }
+
+#loginnn .login-form-button {
+  display: block;
+  width: 300px; }
+
+#loginnn #wrong {
+  display: none;
+  color: red; }
+
+#loginnn .footer {
+  width: 100%;
+  height: 140px;
+  background: #f2f2f2;
+  border-top: 1px solid #d3d3d3; }
+
+#loginnn .ft {
+  width: 980px;
+  height: 140px;
+  margin: 0 auto; }
+  #loginnn .ft .copy {
+    float: left;
+    width: 490px;
+    padding-top: 35px;
+    line-height: 24px; }
+    #loginnn .ft .copy .s-fc4 {
+      color: #999; }
+    #loginnn .ft .copy .line {
+      margin: 0 8px 0 10px;
+      color: #c2c2c2; }
+    #loginnn .ft .copy .sep {
+      font-size: 14px; }
+    #loginnn .ft .copy .s-fc3 {
+      color: #666; }
+  #loginnn .ft .enter {
+    width: 330px;
+    margin-top: 21px;
+    float: right; }
+    #loginnn .ft .enter .logo {
+      float: left;
+      width: 60px;
+      height: 70px;
+      background: url("../images/foot_enter.png") no-repeat 0 9999px;
+      margin-left: 30px;
+      text-indent: -99999px; }
+    #loginnn .ft .enter .logo-musician {
+      background-position: -60px -80px;
+      margin-left: 0; }
+    #loginnn .ft .enter .logo-topic {
+      background-position: 0 -80px; }
+    #loginnn .ft .enter .logo-midea {
+      background-position: 0 0; }
+    #loginnn .ft .enter .logo-reward {
+      background-position: -60px 0; }
