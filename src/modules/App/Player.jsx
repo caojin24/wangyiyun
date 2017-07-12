@@ -30,19 +30,19 @@ export default class Player extends React.Component{
                 "name": "元日",
                 "singer": "于文华",
                 "picUrl": "http://p3.music.126.net/SR9eFEjRB0NsscxN7-fHMw==/3344714372906000.jpg",                    
-                "mp3Url": "http://www.caojin.online/api/audio/1.mp3"
+                "mp3Url": "http://bxu2713290520.my3w.com/api/audio/1.mp3"
             },
             {
                 "name": "元日 ",
                 "singer": "清弄",
                 "picUrl": "http://p4.music.126.net/ly2FJHh5-lYMdC3NZxvavQ==/7714173580661848.jpg",
-                "mp3Url": "http://www.caojin.online/api/audio/2.mp3"
+                "mp3Url": "http://bxu2713290520.my3w.com/api/audio/2.mp3"
             },
             {
                 "name": "青龙·花木苍苍",
                 "singer": "五色石南叶",
                 "picUrl": "http://p4.music.126.net/tHAfnugCElS93EDp5cHLIw==/8909342719897560.jpg",
-                "mp3Url": "http://www.caojin.online/api/audio/3.mp3"
+                "mp3Url": "http://bxu2713290520.my3w.com/api/audio/3.mp3"
             }
         ]
     }

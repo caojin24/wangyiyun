@@ -43,7 +43,7 @@ class NormalLoginForm extends React.Component {
     this.props.form.validateFields((err, values) => {
       if (!err) {
         console.log('Received values of form: ', values);
-        fatch("http://www.caojin.online/api/login.php",{
+        fatch("http://bxu2713290520.my3w.com/api/login.php",{
           method: "POST",  
           mode: "cors",  
           headers: {  

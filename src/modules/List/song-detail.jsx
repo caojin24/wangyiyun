@@ -29,7 +29,7 @@ export default class SongDetial extends React.Component {
         var songer = document.getElementById('songer');//作者
         
         
-        s.setAttribute('src',"http://www.caojin.online/api/audio/"+n+".mp3");
+        s.setAttribute('src',"http://bxu2713290520.my3w.com/api/audio/"+n+".mp3");
         i.setAttribute('src',v.pic);
         name.innerHTML = v.title;
         songer.innerHTML = v.author;    
@@ -96,7 +96,7 @@ export default class SongDetial extends React.Component {
     //     }
     // });
 
-    fatch("http://www.caojin.online/api/play.php",{
+    fatch("http://bxu2713290520.my3w.com/api/play.php",{
           method: "POST",  
           mode: "cors",  
           headers: {  

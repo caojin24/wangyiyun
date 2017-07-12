@@ -25,7 +25,7 @@ export default class Home extends React.Component {
 
   componentDidMount(){
     var that = this;
-    fetch('http://www.jxderic.online/www/api/home-banner.php')
+    fetch('http://bxu2359720759.my3w.com/www/api/home-banner.php')
     .then(function(response) {
       if (response.status >= 400) {
           throw new Error("Bad response from server");

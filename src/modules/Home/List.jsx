@@ -15,7 +15,7 @@ export default class List extends React.Component {
 
     componentDidMount(){
         var that = this;
-        fetch('http://www.caojin.online/api/nowlist.php')
+        fetch('http://bxu2713290520.my3w.com/api/nowlist.php')
         .then(function(response) {
         if (response.status >= 400) {
             throw new Error("Bad response from server");
@@ -28,7 +28,7 @@ export default class List extends React.Component {
             })
         });
         
-        fetch('http://www.caojin.online/api/oldlist.php')
+        fetch('http://bxu2713290520.my3w.com/api/oldlist.php')
         .then(function(response) {
         if (response.status >= 400) {
             throw new Error("Bad response from server");
@@ -41,7 +41,7 @@ export default class List extends React.Component {
             })
         });
         
-        fetch('http://www.caojin.online/api/hotlist.php')
+        fetch('http://bxu2713290520.my3w.com/api/hotlist.php')
         .then(function(response) {
         if (response.status >= 400) {
             throw new Error("Bad response from server");

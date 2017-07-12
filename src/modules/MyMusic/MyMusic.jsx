@@ -37,7 +37,7 @@ export default React.createClass({
   },
   componentWillMount(){
     var _this = this;
-    fatch("http://www.caojin.online/api/my.php").then(function(response){
+    fatch("http://bxu2713290520.my3w.com/api/my.php").then(function(response){
       if (response.status >= 400) {
             throw new Error("Bad response from server");
         }
@@ -97,7 +97,7 @@ export default React.createClass({
     var name = document.getElementById('songnnn');//歌名
     var songer = document.getElementById('songer');//作者
     
-    s.setAttribute('src',"http://www.caojin.online/api/audio/"+n+".mp3");
+    s.setAttribute('src',"http://bxu2713290520.my3w.com/api/audio/"+n+".mp3");
     i.setAttribute('src',this.state.img);
     name.innerHTML = this.state.name;
     songer.innerHTML = this.state.author;    
@@ -212,7 +212,7 @@ class ListChild extends React.Component{
     var _this = this;
     var songid = this.props.song_id;
     console.log(songid);
-    fatch("http://www.caojin.online/api/play.php",{
+    fatch("http://bxu2713290520.my3w.com/api/play.php",{
           method: "POST",  
           mode: "cors",  
           headers: {  

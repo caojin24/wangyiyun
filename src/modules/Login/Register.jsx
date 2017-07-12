@@ -28,7 +28,7 @@ class RegistrationForm extends React.Component {
           if(values.agreement && values.nickname && values.password && values.email){
                 console.log('Received values of form: ', values);
                 
-                fetch('http://www.caojin.online/api/req.php',{
+                fetch('http://bxu2713290520.my3w.com/api/req.php',{
                     method: "POST",  
                     mode: "cors",  
                     headers: {  
@@ -128,7 +128,7 @@ class RegistrationForm extends React.Component {
   nickNameCheckout = (rule, value, callback)=>{
     var _this = this;
    console.log(this.props.form.getFieldValue('nickname'))
-    fetch('http://www.caojin.online/api/req.php',{
+    fetch('http://bxu2713290520.my3w.com/api/req.php',{
         method: "POST",  
         mode: "cors",  //是否跨域
         headers: {   //设置头文件

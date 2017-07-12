@@ -26,7 +26,7 @@ var num;
 // 数据获取函数
 function getComments () {
     $("#comments").html('');
-    $.getJSON("http://www.songjun.online/www/api/inital-data.php", function (json) {
+    $.getJSON("http://bxu2442380389.my3w.com/www/api/inital-data.php", function (json) {
         var newjson = json.slice(0, 10);
         $.each(newjson, function (index, array) {
 
@@ -72,7 +72,7 @@ export default class Detail extends React.Component {
             } else {
                 $.ajax({
                     type: "POST",
-                    url: 'http://www.songjun.online/www/api/comments.php',
+                    url: 'http://bxu2442380389.my3w.com/www/api/comments.php',
                     data: "user=" + user + "&text=" + text,
                     success: function (msg) {
                         if (msg == 1) {
@@ -129,7 +129,7 @@ export default class Detail extends React.Component {
         var songer = document.getElementById('songer');//作者
         
         
-        s.setAttribute('src',"http://www.caojin.online/api/audio/"+n+".mp3");
+        s.setAttribute('src',"http://bxu2713290520.my3w.com/api/audio/"+n+".mp3");
         i.setAttribute('src',v.lists[0].pic_big);
         name.innerHTML = v.lists[0].title;
         songer.innerHTML = v.lists[0].author;    
@@ -153,7 +153,7 @@ export default class Detail extends React.Component {
         var songer = document.getElementById('songer');//作者
         
         
-        s.setAttribute('src',"http://www.caojin.online/api/audio/"+n+".mp3");
+        s.setAttribute('src',"http://bxu2713290520.my3w.com/api/audio/"+n+".mp3");
         i.setAttribute('src',v.lists[index].pic_big);
         name.innerHTML = v.lists[index].title;
         songer.innerHTML = v.lists[index].author;    
@@ -333,40 +333,40 @@ export default class Detail extends React.Component {
         var link = '';
         switch (num) {
             case 0:
-                link = 'http://www.songjun.online/www/api/nowlist.php';
+                link = 'http://bxu2442380389.my3w.com/www/api/nowlist.php';
                 break;
             case 1:
-                link = 'http://www.songjun.online/www/api/americalist.php';
+                link = 'http://bxu2442380389.my3w.com/www/api/americalist.php';
                 break;
             case 2:
-                link = 'http://www.songjun.online/www/api/hotlist.php';
+                link = 'http://bxu2442380389.my3w.com/www/api/hotlist.php';
                 break;
             case 3:
-                link = 'http://www.songjun.online/www/api/jazzlist.php';
+                link = 'http://bxu2442380389.my3w.com/www/api/jazzlist.php';
                 break;
             case 4:
-                link = 'http://www.songjun.online/www/api/lovelist.php';
+                link = 'http://bxu2442380389.my3w.com/www/api/lovelist.php';
                 break;
             case 5:
-                link = 'http://www.songjun.online/www/api/netlist.php';
+                link = 'http://bxu2442380389.my3w.com/www/api/netlist.php';
                 break;
             case 6:
-                link = 'http://www.songjun.online/www/api/oldlist.php';
+                link = 'http://bxu2442380389.my3w.com/www/api/oldlist.php';
                 break;
             case 7:
-                link = 'http://www.songjun.online/www/api/nowlist.php';
+                link = 'http://bxu2442380389.my3w.com/www/api/nowlist.php';
                 break;
             case 8:
-                link = 'http://www.songjun.online/www/api/poplist.php';
+                link = 'http://bxu2442380389.my3w.com/www/api/poplist.php';
                 break;
             case 9:
-                link = 'http://www.songjun.online/www/api/rocklist.php';
+                link = 'http://bxu2442380389.my3w.com/www/api/rocklist.php';
                 break;
             case 10:
-                link = 'http://www.songjun.online/www/api/goldlist.php';
+                link = 'http://bxu2442380389.my3w.com/www/api/goldlist.php';
                 break;
             default:
-                link = 'http://www.songjun.online/www/api/nowlist.php';
+                link = 'http://bxu2442380389.my3w.com/www/api/nowlist.php';
 
         }
         $.ajax({

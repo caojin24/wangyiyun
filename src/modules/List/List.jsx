@@ -45,7 +45,7 @@ export default class ListItem extends React.Component {
     	var that = this;
 		  $.ajax ({  
         type:"GET",  
-        url:'http://www.songjun.online/www/api/list-item.php',  
+        url:'http://bxu2442380389.my3w.com/www/api/list-item.php',  
         dataType:"json",  
         success: function(data){  
             var arr=data;

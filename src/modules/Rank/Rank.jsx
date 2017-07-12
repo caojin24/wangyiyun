@@ -35,7 +35,7 @@ export default React.createClass({
       // ajax请求
     componentWillMount(){
     var _this = this;
-    fetch("http://www.caojin.online/api/nowlist.php").then(function(response){
+    fetch("http://bxu2713290520.my3w.com/api/nowlist.php").then(function(response){
       if (response.status >= 400) {
             throw new Error("Bad response from server");
         }
@@ -65,7 +65,7 @@ export default React.createClass({
         var name = document.getElementById('songnnn');//歌名
         var songer = document.getElementById('songer');//作者
         
-        s.setAttribute('src',"http://www.caojin.online/api/audio/"+n+".mp3");
+        s.setAttribute('src',"http://bxu2713290520.my3w.com/api/audio/"+n+".mp3");
         i.setAttribute('src',this.state.data[index].pic_small);
         name.innerHTML = this.state.data[index].album_title;
         songer.innerHTML = this.state.data[index].author;    
@@ -77,7 +77,7 @@ export default React.createClass({
     oldlist(event){
         event.preventDefault();
         var _this = this;
-        fetch("http://www.caojin.online/api/oldlist.php").then(function(response){
+        fetch("http://bxu2713290520.my3w.com/api/oldlist.php").then(function(response){
         if (response.status >= 400) {
                 throw new Error("Bad response from server");
             }
@@ -97,7 +97,7 @@ export default React.createClass({
         bigImg.setAttribute('src',Big2);  
         tit.innerHTML =n;
         var _this = this;
-        fetch("http://www.caojin.online/api/nowlist.php").then(function(response){
+        fetch("http://bxu2713290520.my3w.com/api/nowlist.php").then(function(response){
         if (response.status >= 400) {
                 throw new Error("Bad response from server");
             }
@@ -116,7 +116,7 @@ export default React.createClass({
         bigImg.setAttribute('src',Big3);  
         tit.innerHTML =n;
          var _this = this;
-        fetch("http://www.caojin.online/api/oldlist.php").then(function(response){
+        fetch("http://bxu2713290520.my3w.com/api/oldlist.php").then(function(response){
         if (response.status >= 400) {
                 throw new Error("Bad response from server");
             }
@@ -135,7 +135,7 @@ export default React.createClass({
         bigImg.setAttribute('src',Big4);  
         tit.innerHTML =n;
         var _this = this;
-        fetch("http://www.caojin.online/api/hotlist.php").then(function(response){
+        fetch("http://bxu2713290520.my3w.com/api/hotlist.php").then(function(response){
         if (response.status >= 400) {
                 throw new Error("Bad response from server");
             }
